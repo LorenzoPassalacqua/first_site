@@ -12,6 +12,9 @@ body {
   background-image: linear-gradient(112deg,#00ffb6 0,#000000)
 }
 
+.background-color-layer{
+  box-shadow: none;
+}
 
 .row > .column {
     padding: 0 45px;

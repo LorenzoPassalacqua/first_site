@@ -15,6 +15,9 @@ body {
 .background-color-layer{
   box-shadow: none;
 }
+.btn-primary, .btn-primary:hover{
+  background-image: linear-gradient(90deg,#697dff 0,#ff0060)
+}
 
 .row > .column {
     padding: 0 45px;

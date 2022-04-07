@@ -10,6 +10,17 @@
 
 body {
   background-image: linear-gradient(112deg,#00ffb6 0,#000000)
+  opacity 1; 
+  transition: 1s opacity;
+}
+
+body.fade-out{
+  opacity: 0;
+  transition: none;
+}
+
+hr{
+  border-top: 2px solid rgb(255, 255, 255);
 }
 
 .background-color-layer{
